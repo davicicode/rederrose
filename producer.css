@@ -1,0 +1,65 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0 8 0 8);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: px;
+    
+    
+
+}
+
+
+.card img{
+
+    border-radius: 5px;
+}
+
+.title{
+    color: gray;
+    font-size: 18px;
+}
+  button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(72, 10, 243);
+    background-color: orange;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10PX;
+  
+  }
+
+  button:hover{
+    padding: 5px;
+    background-color: aqua;
+
+
+  }
+
+  .rowland {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    background-color:rgb(255, 255, 255);
+  }
+
+  button a{
+    text-decoration: none;
+  }
+  
+
+   a:hover{
+    color: orangered;
+  }
+
+  h1{
+    font-size: larger;
+    /* background-color: rgb(113, 113, 218); */
+  }
+  
+
+ 

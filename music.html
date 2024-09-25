@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            backdrop-filter: blur(5px);
+
+        }
+
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-image: url(istockphoto-94.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .nav li{
+            float: right;
+            list-style: none;
+
+        }
+
+        .nav a{
+            list-style: none;
+            text-decoration: none;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1rem;
+            font-weight: 500;
+            display: block;
+            padding: 5px 35px;
+            color:white;
+            backdrop-filter: blur(9px);
+
+            
+        }
+
+
+        .content{
+            width: 100%;
+            position: absolute;
+            top: 45%;
+        }
+
+        .left-col{
+            margin-left: 11%;
+        }
+.left-col h1{
+        font-size: 50px;
+        color: crimson;
+}
+
+.right-col{
+
+    float: right;
+    margin-right: 10%;
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p{
+    font-size: 21px;
+    color: black;
+    font-weight: 650;
+    margin-right: 20px;
+}
+
+#icon{
+    cursor: pointer;
+}
+
+
+
+
+
+
+    </style>
+    <div class="container">
+        <ul class="nav">
+            <li>
+                <a href="">ARTIST</a>
+            </li>
+            <li><a href="">music</a></li>
+            <li><a href="">produce</a></li>
+            <li><a href="">free beat</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="left-col">
+            <h1>ROSSY<br>MEDIA</h1>
+        </div>
+        <Div class="right-col">
+            <p>Click Here To Listen</p>
+            <img src="istockphoto-10.jpg" alt="" srcset="" id="icon" width="50px" height="50px">
+            <audio src="RosebossFtExpatXInnkzSamrexCreditAlart.mp3" type="audio/mp3"  id="mysounds"></audio>
+
+        </div>
+    </div>
+  
+    <script>
+       let aud = 
+       document.getElementById("mysound");
+
+       function playaudio() {
+        aud.play();
+       }
+
+       function pauseaudio(){
+        aud.pause();
+       }
+
+    </script>
+
+</body>
+</html>
